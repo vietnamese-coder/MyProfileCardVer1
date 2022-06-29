@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background-image: linear-gradient( to left, #220E6F, #A82998); */
+    background-image: url(Wallpaper.jfif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-profile-card {
+    border-radius: 12px;
+    width: 375px;
+    height: 500px;
+    border: 3px solid #1F234E;
+    font-family: "Roboto Slab";
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-image {
+    border: 3px solid #1F234E;
+    overflow: hidden;
+    height: 170px;
+    width: 170px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    transform: translateY(30px);
+    transition: 1s;
+}
+
+.card-image:hover {
+    width: 100%;
+    height: 100%;
+    border-radius: unset;
+    transform: unset;
+    border: none;
+}
+
+h2 {
+    margin-top: 80px;
+    font-family: "Roboto Slab";
+    color: black;
+    font-weight: 700;
+}
+
+p {
+    margin-top: 40px;
+    color: black;
+    font-family: "Roboto Slab";
+    font-weight: 500;
+}
+
+.social-network {
+    margin-top: 50px;
+}
+
+.social-network a {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 20px 0 15px;
+    color: black;
+    transition: 0.3s;
+}
+
+.social-network a:hover {
+    color: yellow;
+}
+
+
+/* responsive on mobile */
+
+@media only screen and (max-width: 480px) {}
+
+
+/* -------------------- */
